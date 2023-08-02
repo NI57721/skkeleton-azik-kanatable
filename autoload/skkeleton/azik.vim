@@ -588,11 +588,6 @@ function! skkeleton#azik#add_table(...) abort
   \  "yy": ["っ", "y"],
   \ })
 
-  " 撥音
-  call skkeleton#register_kanatable('azik', {
-  \  "q": ["ん", ""],
-  \ })
-
   " 特殊拡張
   call skkeleton#register_kanatable('azik', {
   \  "kt": ["こと", ""],
