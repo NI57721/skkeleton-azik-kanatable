@@ -1,7 +1,6 @@
 let s:us_layout = {
 \  " ": "henkanFirst",
 \  "^": "henkanPoint",
-\  "<s-l>": "zenkaku",
 \  "'": "katakana",
 \  "/": "abbrev",
 \ }
@@ -9,7 +8,6 @@ let s:us_layout = {
 let s:jis_layout = {
 \  " ": "henkanFirst",
 \  "^": "henkanPoint",
-\  "<s-l>": "zenkaku",
 \  "@": "katakana",
 \  "/": "abbrev",
 \ }
@@ -626,7 +624,6 @@ function! skkeleton#azik#set_keyconfig() abort
   call skkeleton#register_kanatable('azik', {
   \  " ": "henkanFirst",
   \  "^": "henkanPoint",
-  \  "<s-l>": "zenkaku",
   \  "'": "katakana",
   \  "/": "abbrev",
   \ })
